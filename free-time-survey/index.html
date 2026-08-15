@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Free Time Activities Survey</title>
+    </head>
+    <body>
+        <h1>How Do You Spend Your Free Time?</h1>
+        <p>
+            Everyone enjoys spending their free time differently. This fun survey explores your favourite hobbies, relaxation habits and ideal ways to enjoy a free day.
+        </p>
+
+        <form>
+            <label for="fullname">Name or Nickname:</label><br>
+            <input type="text" id="fullname" name="fullname" required><br><br>
+
+        <p>How much free time do you usually have each day?</p>
+
+            <input type="radio" id="less_than_one_hour" name="free_time" value="less_than_one_hour">
+            <label for="less_than_one_hour">Less than one hour</label><br>
+
+            <input type="radio" id="one_to_two_hours" name="free_time" value="one_to_two_hours">
+            <label for="one_to_two_hours">One to two hours</label><br>
+
+            <input type="radio" id="three_to_four_hours" name="free_time" value="three_to_four_hours">
+            <label for="three_to_four_hours">Three to four hours</label><br> 
+            
+            <input type="radio" id="more_than_four_hours" name="free_time" value="more_than_four_hours">
+            <label for="more_than_four_hours">More than four hours</label><br><br>   
+
+
+            <label for="current_level_of_study">When do you usually have the most free time?</label><br>
+            <select id="current_level_of_study" name="current_level_of_study" required>
+                <option value="">Select your free time</option>
+                <option value="morning">Early morning</option>
+                <option value="afternoon">Afternoon</option>
+                <option value="evening">Evening</option>
+                <option value="late_night">Late night</option>
+                <option value="weekends">Weekends only</option>
+            </select><br><br>
+
+            <label for="preferredlearningmethods">What activities do you enjoy during your free time?</label><br>
+            <input type="checkbox" id="watching_educational_videos" name="preferredlearningmethods" value="watching_educational_videos"> Listening to music<br>
+            <input type="checkbox" id="group_discussions" name="preferredlearningmethods" value="group_discussions"> Watching movies or series<br>
+            <input type="checkbox" id="online_resources" name="preferredlearningmethods" value="online_resources"> Playing video games<br>
+            <input type="checkbox" id="practical_exercises" name="preferredlearningmethods" value="practical_exercises"> Reading books<br>
+            <input type="checkbox" id="practical_exercises" name="preferredlearningmethods" value="practical_exercises"> Using social media<br>
+            <input type="checkbox" id="practical_exercises" name="preferredlearningmethods" value="practical_exercises"> Cooking or baking<br>
+            <input type="checkbox" id="practical_exercises" name="preferredlearningmethods" value="practical_exercises"> Playing sports<br>
+            <input type="checkbox" id="practical_exercises" name="preferredlearningmethods" value="practical_exercises"> Slepping<br>
+            <input type="checkbox" id="practical_exercises" name="preferredlearningmethods" value="practical_exercises"> Drawing or creating art<br>
+            <input type="checkbox" id="practical_exercises" name="preferredlearningmethods" value="practical_exercises"> Spending time with friends<br>
+            <input type="checkbox" id="practical_exercises" name="preferredlearningmethods" value="practical_exercises"> Learning something new<br>
+
+        <p>Do you prefer indoor or outdoor activities?</p>
+
+            <input type="radio" id="less_than_one_hour" name="free_time" value="less_than_one_hour" required>
+            <label for="less_than_one_hour">Mostly indoor activities</label><br>
+
+            <input type="radio" id="one_to_two_hours" name="free_time" value="one_to_two_hours">
+            <label for="one_to_two_hours">Mostly outdoor activities</label><br>
+
+            <input type="radio" id="three_to_four_hours" name="free_time" value="three_to_four_hours" required>
+            <label for="three_to_four_hours">I enjoy both equally</label><br><br> 
+            
+        <p>Who do you prefer spending your free time with?</p>
+
+            <input type="radio" id="too_fast" name="pace" value="too_fast" required>
+            <label for="too_fast">By myself</label><br>
+
+            <input type="radio" id="just_right" name="pace" value="just_right">
+            <label for="just_right">With friends</label><br>
+
+            <input type="radio" id="too_slow" name="pace" value="too_slow">
+            <label for="too_slow">With family</label><br> 
+
+            <input type="radio" id="too_slow" name="pace" value="too_slow">
+            <label for="too_slow">It depends on my mood</label><br><br> 
+            
+            <label for="current_level_of_study">What would your perfect weekend include?</label><br>
+            <select id="current_level_of_study" name="current_level_of_study" required>
+                <option value="">Select an option</option>
+                <option value="cinema">Going to the cinema</option>
+                <option value="party">Attending a party</option>
+                <option value="games">Playing games</option>
+                <option value="adventure">Going on an adventure</option>
+                <option value="friends">Spending time with friends</option>
+                <option value="sleep">Sleeping for most of the day</option>
+            
+            </select><br><br>
+
+            <label for="new_hobby">Is there a new hobby you would like to try?</label><br>
+            <input type="text" id="new_hobby" name="new_hobby" required><br><br>
+
+            <label for="feedback">Describe your perfect free day</label><br>
+            <textarea id="feedback" name="feedback" rows="4" cols="50"></textarea><br><br>
+
+            <button type="submit">Share My Answers</button>
+        </form>
+    </body>   
+</html>
